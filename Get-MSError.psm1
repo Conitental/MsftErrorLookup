@@ -23,11 +23,6 @@
 .EXAMPLE
     Get-MSError -ErrorCode "0x80070005" -OutXML
     Retrieves information about the specified error code and returns the output in XML format.
-
-.NOTES
-    Author: [Your Name]
-    Date: [Date]
-    Version: 1.0
 #>
 
 Function Get-MSError {
