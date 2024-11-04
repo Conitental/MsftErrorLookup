@@ -8,4 +8,4 @@ If( $Result.FailedCount -ne 0 ) {
 
 $PublishParameters = Get-Content .\PublishParameters.json | ConvertFrom-Json -AsHashtable
 
-Publish-Module @PublishParameters -Verbose -WhatIf
+Publish-Module @PublishParameters -Verbose
