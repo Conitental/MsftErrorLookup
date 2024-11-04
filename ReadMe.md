@@ -26,6 +26,6 @@ This command retrieves information about the specified error code and returns it
 
 ## Parameters
 
-- ErrorCode: (Mandatory) Specifies the error code you want to look up. This parameter is required for the function to execute.
-- OutXml: (Optional) When specified, returns the output in XML format instead of a custom PowerShell object.
-- ForceDownload: (Optional) Forces a re-download of the Microsoft Error Lookup Tool, regardless of its current presence or validity.
+- `-ErrorCode`: (Mandatory) Specifies the error code you want to look up. This parameter is required for the function to execute.
+- `-OutXml`: (Optional) When specified, returns the output in XML format instead of a custom PowerShell object.
+- `-ForceDownload`: (Optional) Forces a re-download of the Microsoft Error Lookup Tool, regardless of its current presence or validity.
