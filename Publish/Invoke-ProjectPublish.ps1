@@ -6,6 +6,6 @@ If( $Result.FailedCount -ne 0 ) {
 	Exit
 }
 
-$PublishParameters = Get-Content .\PublishParameters.json | ConvertFrom-Json
+$PublishParameters = Get-Content .\PublishParameters.json | ConvertFrom-Json -AsHashtable
 
 Publish-Module @PublishParameters -Verbose -WhatIf
