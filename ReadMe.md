@@ -8,7 +8,7 @@ Lookup Microsoft Error Codes by using the Error Lookup Tool
 
 ## Installation
 
-*MsftErrorLookup* is available on the PowerShell Gallery. Use the following command to install the it:
+*MsftErrorLookup* is available on the PowerShell Gallery. Use the following command to install it:
 
 ```powershell
 Install-Module -Name MsftErrorLookup -Scope CurrentUser
